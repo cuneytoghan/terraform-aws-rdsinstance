@@ -1,5 +1,3 @@
-### please run below codes to create rds instance
-```
 module rds {
     source = "../"
     region              = "us-east-1"
@@ -18,4 +16,3 @@ module rds {
 output endpoint {
     value = module.rds.endpoint
 }
-```
